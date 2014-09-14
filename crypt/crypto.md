@@ -1,3 +1,5 @@
+# crypto
+
 ## crypto.getHashes()
 
 [ 'DSA',

@@ -24,7 +24,7 @@ import:
 
 can't decode
 
-## check
+## verify
 
     var beforeHash = 'Hello World';
 
