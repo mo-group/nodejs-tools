@@ -16,7 +16,7 @@ var afterMD5 = crypto.createHash('md5').update(beforeMD5).digest('hex');
 
 ## decrypt
 
-can't decode
+can't decrypt
 
 ## verify
 
