@@ -1,16 +1,30 @@
 # md5
 
-    var crypto = require('crypto');
+## import
 
-## encode
+```javascript
+var crypto = require('crypto');
+```
 
-    var beforeMD5 = 'Hello World';
+## encrypt
 
-    var afterMD5 = crypto.createHash('md5').update(beforeMD5).digest('hex');
+```javascript
+var beforeMD5 = 'Hello World';
 
-## decode
+var afterMD5 = crypto.createHash('md5').update(beforeMD5).digest('hex');
+```
+
+## decrypt
 
 can't decode
 
 ## verify
 
+
+```javascript
+
+if (beforeMD5 === crypto.createHash('md5').update(beforeMD5).digest('hex')) {
+
+    // ..
+}
+```
