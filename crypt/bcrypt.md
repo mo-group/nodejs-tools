@@ -2,13 +2,13 @@
 
 use [node.bcrypt.js](https://github.com/ncb000gt/node.bcrypt.js/)
 
-install:
+## install
 
 ```bash
 npm install --save bcrypt
 ```
 
-import:
+## import
 
 ```javascript
 var bcrypt = require('bcrypt');
