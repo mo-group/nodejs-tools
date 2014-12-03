@@ -2,7 +2,9 @@
 
 ## crypto.getHashes()
 
-[ 'DSA',
+```javascript
+[
+	'DSA',
   'DSA-SHA',
   'DSA-SHA1',
   'DSA-SHA1-old',
@@ -47,5 +49,7 @@
   'ssl2-md5',
   'ssl3-md5',
   'ssl3-sha1',
-  'whirlpool' ]
+  'whirlpool'
+]
+```
 
