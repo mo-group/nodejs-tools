@@ -37,7 +37,7 @@
   'sha1WithRSAEncryption',
   'sha224',
   'sha224WithRSAEncryption',
-'sha256',
+  'sha256',
   'sha256WithRSAEncryption',
   'sha384',
   'sha384WithRSAEncryption',

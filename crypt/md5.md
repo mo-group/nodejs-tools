@@ -23,7 +23,7 @@ can't decrypt
 
 ```javascript
 
-if (beforeMD5 === crypto.createHash('md5').update(beforeMD5).digest('hex')) {
+if (afterMD5 === crypto.createHash('md5').update(beforeMD5).digest('hex')) {
 
     // ..
 }

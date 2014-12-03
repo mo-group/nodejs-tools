@@ -12,10 +12,11 @@ node-tool
   * bluebird
 
 - crypt
+	* [crypto](https://github.com/mo-group/nodejs-tool/blob/master/crypt/crypto.md)
   * [base64](https://github.com/mo-group/nodejs-tool/blob/master/crypt/base64.md)
   * [bcrypt](https://github.com/mo-group/nodejs-tool/blob/master/crypt/bcrypt.md)
-  * md5
-  * sha1
+  * [md5](https://github.com/mo-group/nodejs-tool/blob/master/crypt/md5.md)
+  * [sha1](https://github.com/mo-group/nodejs-tool/blob/master/crypt/sha.md)
 
 - document
   * jsdoc
@@ -33,6 +34,14 @@ node-tool
 
 - template
   * jade
+  * ejs
+
+- email
+	* nodemailer
 
 - testing
-  * mocha
+  * [mocha](https://github.com/mo-group/nodejs-tool/blob/master/testing/mocha.md)
+  * chai
+  * sinon
+  * krama
+

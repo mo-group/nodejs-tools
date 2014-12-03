@@ -1,15 +1,27 @@
 # sha1
 
-    var crypto = require('crypto');
+```javascript
+var crypto = require('crypto');
+```
 
-## encode
+## encrypt
 
-    var beforeSHA1 = 'Hello World';
+```javascript
+var beforeSHA1 = 'Hello World';
 
-    var afterSHA1 = crypto.createHash('sha1').update(beforeSHA1).digest('hex');
+var afterSHA1 = crypto.createHash('sha1').update(beforeSHA1).digest('hex');
+```
 
-## decode
+## decrypt
 
-can't decode
+can't decrypt
 
 ## verify
+
+```javascript
+
+if (afterSHA1 === crypto.createHash('sha1').update(beforeSHA1).digest('hex')) {
+
+    // ..
+}
+```
